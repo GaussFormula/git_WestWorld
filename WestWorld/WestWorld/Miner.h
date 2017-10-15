@@ -11,7 +11,6 @@ private:
 	State* p_CurrentState;
 	location_type m_Location;
 	int i_GoldCarried;
-	int i_Nugget;
 	int i_MoneyInBank;
 	int i_Thirst;//口渴值
 	int i_Fatigue;//疲劳值
