@@ -15,10 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="源.cpp">
+    <ClCompile Include="Miner.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Miner.cpp">
+    <ClCompile Include="MinerOwnedState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MinerOwnedState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityNames.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

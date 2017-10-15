@@ -112,9 +112,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Miner.cpp" />
-    <ClCompile Include="源.cpp" />
+    <ClCompile Include="MinerOwnedState.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EntityNames.h" />
     <ClInclude Include="GameEntity.h" />
     <ClInclude Include="Locations.h" />
     <ClInclude Include="Miner.h" />
