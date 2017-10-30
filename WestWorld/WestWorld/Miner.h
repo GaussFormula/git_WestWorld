@@ -5,6 +5,7 @@
 
 class State;
 const int MaxNuggets = 3;
+const int ComfortLevel = 5;
 class Miner:public BaseGameEntity
 {
 private:
