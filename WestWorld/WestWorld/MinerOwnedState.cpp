@@ -68,3 +68,68 @@ void VisitBankAndDepositGold::Exit(Miner*pMiner)
 {
 	cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<< "Leavin' the bank";
 }
+GoHomeAndSleepTilRested* GoHomeAndSleepTilRested::Instance()
+{
+	static GoHomeAndSleepTilRested instance;
+	return &instance;
+}
+
+void GoHomeAndSleepTilRested::Enter(Miner*pMiner)
+{
+	if (pMiner->Location() != shack)
+	{
+		cout << "\n" << GetNameOfEntity(pMiner->getID()) << ": " << "Walkin' home";
+		pMiner->ChangeLocation(shack);
+	}
+}
+void GoHomeAndSleepTilRested::Execute(Miner*pMiner)
+{
+	if (!pMiner->Fatigued())
+	{
+		cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<< "What a God darn fantastic nap! Time to find more gold";
+		pMiner->ChangeState(EnterMineAndDigForNugget::Instance());
+	}
+	else
+	{
+		pMiner->DecreaseFatigue();
+		cout << "\n" << GetNameOfEntity(pMiner->getID()) << ": " << "Zzzzz...";
+	}
+}
+
+void GoHomeAndSleepTilRested::Exit(Miner*pMiner)
+{
+	cout << "\n" << GetNameOfEntity(pMiner->getID()) << ": " << "Leaving the house";
+}
+
+QuenchThirst* QuenchThirst::Instance()
+{
+	static QuenchThirst instance;
+	return &instance;
+}
+void QuenchThirst::Enter(Miner*pMiner)
+{
+	if (pMiner->Location() != saloon)
+	{
+		pMiner->ChangeLocation(saloon);
+		cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<< "Boy, ah sure is thusty! Walking to the saloon";
+	}
+}
+
+void QuenchThirst::Execute(Miner*pMiner)
+{
+	if (pMiner->Thirsty())
+	{
+		pMiner->BuyAndDrinkWhiskey();
+		cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<< "That's mighty fine sippin liquer";
+		pMiner->ChangeState(EnterMineAndDigForNugget::Instance());
+	}
+	else
+	{
+		cout << "\nERROR!\nERROR!\nERROR!";
+	}
+}
+
+void QuenchThirst::Exit(Miner*pMiner)
+{
+	cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<< "Leaving the saloon, feelin' good";
+}

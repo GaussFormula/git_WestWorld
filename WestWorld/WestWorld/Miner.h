@@ -6,6 +6,8 @@
 class State;
 const int MaxNuggets = 3;
 const int ComfortLevel = 5;
+const int TirednessThreshold = 5;
+const int TirstLevel = 5;
 class Miner:public BaseGameEntity
 {
 private:
@@ -17,7 +19,7 @@ private:
 	int i_Fatigue;//∆£¿Õ÷µ
 public:
 	Miner(int ID);
-	~Miner();
+	~Miner() {};
 	void Update();
 	void ChangeState(State* p_NewState);
 	location_type Location()const { return m_Location; }
