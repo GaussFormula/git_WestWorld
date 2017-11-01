@@ -1,6 +1,6 @@
 #include "Locations.h"
 #include "Miner.h"
-#include <Windows.h>
+//#include <Windows.h>
 #include "EntityNames.h"
 int main()
 {
@@ -8,7 +8,7 @@ int main()
 	for (int i = 0; i < 20; ++i)
 	{
 		miner.Update();
-		Sleep(800);
+		getchar();
 	}
 	getchar();
 	return 0;

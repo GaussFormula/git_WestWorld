@@ -15,8 +15,8 @@ void EnterMineAndDigForNugget::Enter(Miner*pMiner)
 	if (pMiner->Location() != goldmine)
 	{
 		cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<< "Walkin' to the goldmine";
+		pMiner->ChangeLocation(goldmine);
 	}
-	pMiner->ChangeLocation(goldmine);
 }
 void EnterMineAndDigForNugget::Execute(Miner*pMiner)
 {
@@ -32,6 +32,12 @@ void EnterMineAndDigForNugget::Execute(Miner*pMiner)
 	{
 		pMiner->ChangeState(QuenchThirst::Instance());
 	}
+}
+void EnterMineAndDigForNugget::Exit(Miner*pMiner)
+{
+	cout<<"\n"<<GetNameOfEntity(pMiner->getID())<<": "<<
+		"Ah'm leavin' the goldmine with mah pockets full o' sweet gold";
+
 }
 VisitBankAndDepositGold*VisitBankAndDepositGold::Instance()
 {
