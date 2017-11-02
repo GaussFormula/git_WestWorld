@@ -35,7 +35,7 @@ void Miner::AddToGoldCarried(const int val)
 }
 void Miner::AddToWealth(const int val)
 {
-	i_GoldCarried+=i_MoneyInBank;
+	i_MoneyInBank += i_GoldCarried;
 }
 bool Miner::Fatigued() const
 {

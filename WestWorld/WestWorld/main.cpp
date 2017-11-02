@@ -4,12 +4,12 @@
 #include "EntityNames.h"
 int main()
 {
+	char c='\0';
 	Miner miner(Miner_Bob);
-	for (int i = 0; i < 20; ++i)
+	while(c!='q')
 	{
 		miner.Update();
-		getchar();
+		c=getchar();
 	}
-	getchar();
 	return 0;
 }
