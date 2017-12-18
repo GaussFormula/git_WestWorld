@@ -1,0 +1,725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="@101" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vcruntime_typeinfo.h" Label="vcruntime_typeinfo.h" />
+    <Node Id="@103" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wstdio.h" Label="corecrt_wstdio.h" />
+    <Node Id="@105" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdio.h" Label="stdio.h" />
+    <Node Id="@107" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wconio.h" Label="corecrt_wconio.h" />
+    <Node Id="@109" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wio.h" Label="corecrt_wio.h" />
+    <Node Id="@11" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xlocale" Label="xlocale" />
+    <Node Id="@111" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\errno.h" Label="errno.h" />
+    <Node Id="@113" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\wchar.h" Label="wchar.h" />
+    <Node Id="@115" Category="CodeSchema_ProjectItem" Bounds="446.356670480662,60.9340987137688,84.9813334104123,25.998000077079" FilePath="$(VsSolution)\WestWorld\Miner.h" Label="Miner.h" />
+    <Node Id="@117" Category="CodeSchema_ProjectItem" Bounds="97.9733409620257,60.9340986751726,123.748000077079,25.998000077079" FilePath="$(VsSolution)\WestWorld\EntityNames.h" Label="EntityNames.h" />
+    <Node Id="@119" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_math_defines.h" Label="corecrt_math_defines.h" />
+    <Node Id="@121" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\sys\types.h" Label="types.h" />
+    <Node Id="@123" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vadefs.h" Label="vadefs.h" />
+    <Node Id="@125" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\crtdefs.h" Label="crtdefs.h" />
+    <Node Id="@127" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\yvals.h" Label="yvals.h" />
+    <Node Id="@129" Category="CodeSchema_ProjectItem" Bounds="199.869988555206,116.93209985343,105.954666743746,25.998000077079" FilePath="$(VsSolution)\WestWorld\Locations.h" Label="Locations.h" />
+    <Node Id="@13" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xiosbase" Label="xiosbase" />
+    <Node Id="@131" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\CodeAnalysis\sourceannotations.h" Label="sourceannotations.h" />
+    <Node Id="@133" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wprocess.h" Label="corecrt_wprocess.h" />
+    <Node Id="@135" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\limits.h" Label="limits.h" />
+    <Node Id="@137" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_memcpy_s.h" Label="corecrt_memcpy_s.h" />
+    <Node Id="@139" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\float.h" Label="float.h" />
+    <Node Id="@141" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\sys\stat.h" Label="stat.h" />
+    <Node Id="@143" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wdirect.h" Label="corecrt_wdirect.h" />
+    <Node Id="@145" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\stdint.h" Label="stdint.h" />
+    <Node Id="@147" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt.h" Label="corecrt.h" />
+    <Node Id="@149" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xstring_insert.h" Label="xstring_insert.h" />
+    <Node Id="@15" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cstddef" Label="cstddef" />
+    <Node Id="@151" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vcruntime_new.h" Label="vcruntime_new.h" />
+    <Node Id="@153" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\shared\winpackagefamily.h" Label="winpackagefamily.h" />
+    <Node Id="@155" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\shared\winapifamily.h" Label="winapifamily.h" />
+    <Node Id="@157" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_memory.h" Label="corecrt_memory.h" />
+    <Node Id="@159" Category="CodeSchema_ProjectItem" Bounds="374.166655221873,116.93209985343,117.361333410412,25.998000077079" FilePath="$(VsSolution)\WestWorld\GameEntity.h" Label="GameEntity.h" />
+    <Node Id="@161" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cmath" Label="cmath" />
+    <Node Id="@163" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\istream" Label="istream" />
+    <Node Id="@165" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\iostream" Label="iostream" />
+    <Node Id="@167" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\ostream" Label="ostream" />
+    <Node Id="@169" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xlocnum" Label="xlocnum" />
+    <Node Id="@17" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xstddef" Label="xstddef" />
+    <Node Id="@171" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\exception" Label="exception" />
+    <Node Id="@173" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xtr1common" Label="xtr1common" />
+    <Node Id="@175" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xlocinfo" Label="xlocinfo" />
+    <Node Id="@177" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\typeinfo" Label="typeinfo" />
+    <Node Id="@179" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cstdio" Label="cstdio" />
+    <Node Id="@181" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cerrno" Label="cerrno" />
+    <Node Id="@183" Category="CodeSchema_ProjectItem" Bounds="404.158321888539,4.93609755480998,169.378000077079,25.998000077079" FilePath="$(VsSolution)\WestWorld\MinerOwnedState.cpp" Label="MinerOwnedState.cpp" />
+    <Node Id="@185" Category="CodeSchema_ProjectItem" Bounds="19.9999999992978,4.93609752586288,93.6946667437457,25.998000077079" FilePath="$(VsSolution)\WestWorld\main.cpp" Label="main.cpp" />
+    <Node Id="@187" Category="CodeSchema_ProjectItem" Bounds="604.380019072784,4.93609761513596,98.9346667437458,25.998000077079" FilePath="$(VsSolution)\WestWorld\Miner.cpp" Label="Miner.cpp" />
+    <Node Id="@189" Category="CodeSchema_ProjectItem" Bounds="284.190003813995,60.9340987041197,131.314666743746,25.998000077079" FilePath="$(VsSolution)\WestWorld\GameEntity.cpp" Label="GameEntity.cpp" />
+    <Node Id="@19" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\streambuf" Label="streambuf" />
+    <Node Id="@191" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cwchar" Label="cwchar" />
+    <Node Id="@193" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\system_error" Label="system_error" />
+    <Node Id="@195" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\ios" Label="ios" />
+    <Node Id="@197" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\type_traits" Label="type_traits" />
+    <Node Id="@199" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\climits" Label="climits" />
+    <Node Id="@2" Category="CodeSchema_PoundIncludeFile" Bounds="-7.02023826306772E-10,-35.0642945705475,768.559685817232,197.994574592728" FilePath="$(VsSolution)\WestWorld\WestWorld.vcxproj" Group="Expanded" Label="WestWorld.vcxproj" Language="{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}" />
+    <Node Id="@201" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\limits" Label="limits" />
+    <Node Id="@203" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cfloat" Label="cfloat" />
+    <Node Id="@205" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xfacet" Label="xfacet" />
+    <Node Id="@207" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cstdint" Label="cstdint" />
+    <Node Id="@209" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\stdexcept" Label="stdexcept" />
+    <Node Id="@21" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cstring" Label="cstring" />
+    <Node Id="@211" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\initializer_list" Label="initializer_list" />
+    <Node Id="@213" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\new" Label="new" />
+    <Node Id="@215" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xutility" Label="xutility" />
+    <Node Id="@217" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\utility" Label="utility" />
+    <Node Id="@23" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xstring" Label="xstring" />
+    <Node Id="@25" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\string" Label="string" />
+    <Node Id="@27" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xatomic0.h" Label="xatomic0.h" />
+    <Node Id="@29" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\intrin0.h" Label="intrin0.h" />
+    <Node Id="@31" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wstdlib.h" Label="corecrt_wstdlib.h" />
+    <Node Id="@33" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\stdlib.h" Label="stdlib.h" />
+    <Node Id="@35" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xatomic.h" Label="xatomic.h" />
+    <Node Id="@37" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\malloc.h" Label="malloc.h" />
+    <Node Id="@39" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_malloc.h" Label="corecrt_malloc.h" />
+    <Node Id="@41" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xcall_once.h" Label="xcall_once.h" />
+    <Node Id="@43" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\locale.h" Label="locale.h" />
+    <Node Id="@45" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vcruntime.h" Label="vcruntime.h" />
+    <Node Id="@47" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wtime.h" Label="corecrt_wtime.h" />
+    <Node Id="@49" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wctype.h" Label="corecrt_wctype.h" />
+    <Node Id="@5" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xmemory0" Label="xmemory0" />
+    <Node Id="@51" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\ctype.h" Label="ctype.h" />
+    <Node Id="@53" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\share.h" Label="share.h" />
+    <Node Id="@55" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_share.h" Label="corecrt_share.h" />
+    <Node Id="@57" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_terminate.h" Label="corecrt_terminate.h" />
+    <Node Id="@59" Category="CodeSchema_ProjectItem" Bounds="593.135019072784,60.9340987137688,155.424666743746,25.998000077079" FilePath="$(VsSolution)\WestWorld\MinerOwnedState.h" Label="MinerOwnedState.h" />
+    <Node Id="@61" Category="CodeSchema_ProjectItem" Bounds="521.553352406117,116.932099812402,80.5880000770791,25.998000077079" FilePath="$(VsSolution)\WestWorld\State.h" Label="State.h" />
+    <Node Id="@63" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\stddef.h" Label="stddef.h" />
+    <Node Id="@65" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\crtdbg.h" Label="crtdbg.h" />
+    <Node Id="@67" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_stdio_config.h" Label="corecrt_stdio_config.h" />
+    <Node Id="@69" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_wstring.h" Label="corecrt_wstring.h" />
+    <Node Id="@7" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\cstdlib" Label="cstdlib" />
+    <Node Id="@71" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h" Label="string.h" />
+    <Node Id="@73" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vcruntime_string.h" Label="vcruntime_string.h" />
+    <Node Id="@75" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vcruntime_new_debug.h" Label="vcruntime_new_debug.h" />
+    <Node Id="@77" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_search.h" Label="corecrt_search.h" />
+    <Node Id="@79" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\eh.h" Label="eh.h" />
+    <Node Id="@81" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xtgmath.h" Label="xtgmath.h" />
+    <Node Id="@83" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\ymath.h" Label="ymath.h" />
+    <Node Id="@85" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\math.h" Label="math.h" />
+    <Node Id="@87" Category="CodeSchema_ProjectItem" FilePath="$(ProgramFiles)\Windows Kits\10\Include\10.0.15063.0\ucrt\corecrt_math.h" Label="corecrt_math.h" />
+    <Node Id="@89" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\use_ansi.h" Label="use_ansi.h" />
+    <Node Id="@9" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\iosfwd" Label="iosfwd" />
+    <Node Id="@91" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xkeycheck.h" Label="xkeycheck.h" />
+    <Node Id="@93" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\concurrencysal.h" Label="concurrencysal.h" />
+    <Node Id="@95" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\sal.h" Label="sal.h" />
+    <Node Id="@97" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\vcruntime_exception.h" Label="vcruntime_exception.h" />
+    <Node Id="@99" Category="CodeSchema_ProjectItem" FilePath="$(VsInstallDir)\VC\Tools\MSVC\14.12.25827\include\xlocinfo.h" Label="xlocinfo.h" />
+    <Node Id="G4" Category="CodeSchema_PoundIncludeGroup" Bounds="324.11259571854,244.724162750533,120.363333333333,25" Group="Collapsed" Label="Windows SDK" />
+    <Node Id="OthersGroup" Category="CodeSchema_PoundIncludeGroup" Bounds="352.279833371873,301.382638750533,64,25" Group="Collapsed" Label="其他" />
+    <Node Id="PoundIncludeGraphExternalsGroup" Category="Externals" Bounds="304.12283571854,204.744642750533,160.313995306667,141.627756" Group="Expanded" Label="外部" UseManualLocation="True" />
+    <Node Id="Windows SDK 间接包含" Category="CodeSchema_PoundIncludeGroup" Group="Collapsed" Label="间接包含" />
+  </Nodes>
+  <Links>
+    <Link Source="@101" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@101" Target="@97" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@103" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@103" Target="@67" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@105" Target="@103" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@105" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@107" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@107" Target="@67" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@109" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@109" Target="@55" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@11" Target="@175" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@11" Target="@177" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@11" Target="@199" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@11" Target="@205" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@11" Target="@209" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@11" Target="@21" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@111" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@103" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@107" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@109" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@121" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@133" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@137" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@141" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@143" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@31" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@47" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@49" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@69" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@113" Target="@73" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@115" Target="@129" Category="PoundInclude" Bounds="313.492095947266,84.0149993896484,132.86572265625,31.5263290405273" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@115" Target="@159" Category="PoundInclude" Bounds="452.210876464844,86.9320983886719,23.6369934082031,23.6361541748047" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@115" Target="@61" Category="PoundInclude" Bounds="505.793060302734,86.9320983886719,31.9675598144531,24.5221862792969" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@117" Target="@25" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@125" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@125" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@127" Target="@125" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@127" Target="@89" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@127" Target="@91" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@13" Target="@11" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@13" Target="@193" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@13" Target="@53" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@133" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@135" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@137" Target="@111" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@137" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@137" Target="@73" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@139" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@141" Target="@121" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@141" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@143" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@145" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@147" Target="@155" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@147" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@149" Target="@167" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@15" Target="@173" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@15" Target="@63" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@151" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@155" Target="@153" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@157" Target="@137" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@157" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@157" Target="@73" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@161" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@161" Target="@81" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@163" Target="@167" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@165" Target="@163" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@167" Target="@195" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@169" Target="@161" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@169" Target="@179" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@169" Target="@19" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@169" Target="@199" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@169" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@17" Target="@15" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@17" Target="@173" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@17" Target="@211" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@17" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@171" Target="@197" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@171" Target="@37" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@171" Target="@97" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@173" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@175" Target="@17" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@175" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@175" Target="@99" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@177" Target="@101" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@177" Target="@171" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@179" Target="@105" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@179" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@181" Target="@111" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@181" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@183" Target="@115" Category="PoundInclude" Bounds="488.847320556641,30.9340972900391,0,21" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@183" Target="@117" Category="PoundInclude" Bounds="230.54753112793,30.9340972900391,181.927963256836,30.9653549194336" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@183" Target="@129" Category="PoundInclude" Bounds="252.84733581543,30.9340972900391,160.771774291992,76.9980010986328" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@183" Target="@165" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@183" Target="@59" Category="PoundInclude" Bounds="531.095581054688,30.9340972900391,88.9014282226563,27.3533134460449" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@183" Target="@61" Category="PoundInclude" Bounds="505.793060302734,30.9340972900391,56.0542907714844,76.9980010986328" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@185" Target="@115" Category="PoundInclude" Bounds="113.694671630859,22.9934768676758,323.881744384766,38.6548156738281" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@185" Target="@117" Category="PoundInclude" Bounds="88.4357299804688,30.9340972900391,42.1130218505859,25.3574752807617" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@185" Target="@129" Category="PoundInclude" Bounds="66.8473358154297,30.9340972900391,125.519561767578,84.4596099853516" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@187" Target="@115" Category="PoundInclude" Bounds="535.671875,30.9340972900391,79.8734741210938,27.1075973510742" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@187" Target="@59" Category="PoundInclude" Bounds="657.793579101563,30.9340972900391,6.4930419921875,21.3880996704102" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@189" Target="@159" Category="PoundInclude" Bounds="369.114410400391,86.9320983886719,37.0050964355469,24.9664077758789" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@19" Target="@13" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@191" Target="@113" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@191" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@193" Target="@181" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@193" Target="@209" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@193" Target="@41" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@193" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@195" Target="@169" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@197" Target="@17" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@199" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@199" Target="@135" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@2" Target="@115" Category="Contains" />
+    <Link Source="@2" Target="@117" Category="Contains" />
+    <Link Source="@2" Target="@129" Category="Contains" />
+    <Link Source="@2" Target="@159" Category="Contains" />
+    <Link Source="@2" Target="@183" Category="Contains" />
+    <Link Source="@2" Target="@185" Category="Contains" />
+    <Link Source="@2" Target="@187" Category="Contains" />
+    <Link Source="@2" Target="@189" Category="Contains" />
+    <Link Source="@2" Target="@59" Category="Contains" />
+    <Link Source="@2" Target="@61" Category="Contains" />
+    <Link Source="@201" Target="@161" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@201" Target="@17" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@201" Target="@191" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@201" Target="@199" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@201" Target="@203" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@201" Target="@83" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@203" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@203" Target="@139" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@205" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@207" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@207" Target="@145" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@209" Target="@171" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@209" Target="@23" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@21" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@21" Target="@71" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@211" Target="@15" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@213" Target="@151" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@213" Target="@171" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@215" Target="@199" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@215" Target="@217" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@215" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@217" Target="@17" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@217" Target="@197" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@217" Target="@9" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@23" Target="@5" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@25" Target="@149" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@25" Target="@163" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@27" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@31" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@33" Target="@135" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@33" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@33" Target="@31" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@33" Target="@39" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@33" Target="@77" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@35" Target="@215" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@35" Target="@27" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@35" Target="@29" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@35" Target="@33" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@35" Target="@63" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@35" Target="@71" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@37" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@37" Target="@39" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@39" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@41" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@43" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@45" Target="@123" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@45" Target="@95" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@47" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@49" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@201" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@207" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@213" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@215" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@27" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@29" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@35" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@5" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@51" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@51" Target="@49" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@53" Target="@55" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@57" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@59" Target="@61" Category="PoundInclude" Bounds="595.155212402344,86.9320983886719,50.3895874023438,25.8872985839844" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@63" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@65" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@65" Target="@75" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@67" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@69" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@69" Target="@73" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@7" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@7" Target="@33" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@7" Target="@85" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@71" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@71" Target="@157" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@71" Target="@69" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@71" Target="@73" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@73" Target="@45" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@75" Target="@151" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@77" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@77" Target="@63" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@79" Target="@57" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@81" Target="@173" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@81" Target="@7" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@83" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@85" Target="@119" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@85" Target="@87" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@87" Target="@147" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@9" Target="@17" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@9" Target="@179" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@9" Target="@191" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@9" Target="@21" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@9" Target="@65" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@95" Target="@131" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@95" Target="@93" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@97" Target="@151" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@97" Target="@79" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@99" Target="@113" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@99" Target="@127" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@99" Target="@43" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="@99" Target="@51" Category="PoundInclude" NativeProvider_CodeItemIds="Microsoft.VisualStudio.Progression.SmallList`1[System.Int64]" />
+    <Link Source="G4" Target="@105" Category="Contains" />
+    <Link Source="G4" Target="@111" Category="Contains" />
+    <Link Source="G4" Target="@113" Category="Contains" />
+    <Link Source="G4" Target="@139" Category="Contains" />
+    <Link Source="G4" Target="@147" Category="Contains" />
+    <Link Source="G4" Target="@33" Category="Contains" />
+    <Link Source="G4" Target="@37" Category="Contains" />
+    <Link Source="G4" Target="@43" Category="Contains" />
+    <Link Source="G4" Target="@51" Category="Contains" />
+    <Link Source="G4" Target="@53" Category="Contains" />
+    <Link Source="G4" Target="@57" Category="Contains" />
+    <Link Source="G4" Target="@63" Category="Contains" />
+    <Link Source="G4" Target="@65" Category="Contains" />
+    <Link Source="G4" Target="@71" Category="Contains" />
+    <Link Source="G4" Target="@85" Category="Contains" />
+    <Link Source="G4" Target="Windows SDK 间接包含" Category="Contains" />
+    <Link Source="OthersGroup" Target="@101" Category="Contains" />
+    <Link Source="OthersGroup" Target="@11" Category="Contains" />
+    <Link Source="OthersGroup" Target="@123" Category="Contains" />
+    <Link Source="OthersGroup" Target="@125" Category="Contains" />
+    <Link Source="OthersGroup" Target="@127" Category="Contains" />
+    <Link Source="OthersGroup" Target="@13" Category="Contains" />
+    <Link Source="OthersGroup" Target="@131" Category="Contains" />
+    <Link Source="OthersGroup" Target="@135" Category="Contains" />
+    <Link Source="OthersGroup" Target="@145" Category="Contains" />
+    <Link Source="OthersGroup" Target="@149" Category="Contains" />
+    <Link Source="OthersGroup" Target="@15" Category="Contains" />
+    <Link Source="OthersGroup" Target="@151" Category="Contains" />
+    <Link Source="OthersGroup" Target="@161" Category="Contains" />
+    <Link Source="OthersGroup" Target="@163" Category="Contains" />
+    <Link Source="OthersGroup" Target="@165" Category="Contains" />
+    <Link Source="OthersGroup" Target="@167" Category="Contains" />
+    <Link Source="OthersGroup" Target="@169" Category="Contains" />
+    <Link Source="OthersGroup" Target="@17" Category="Contains" />
+    <Link Source="OthersGroup" Target="@171" Category="Contains" />
+    <Link Source="OthersGroup" Target="@173" Category="Contains" />
+    <Link Source="OthersGroup" Target="@175" Category="Contains" />
+    <Link Source="OthersGroup" Target="@177" Category="Contains" />
+    <Link Source="OthersGroup" Target="@179" Category="Contains" />
+    <Link Source="OthersGroup" Target="@181" Category="Contains" />
+    <Link Source="OthersGroup" Target="@19" Category="Contains" />
+    <Link Source="OthersGroup" Target="@191" Category="Contains" />
+    <Link Source="OthersGroup" Target="@193" Category="Contains" />
+    <Link Source="OthersGroup" Target="@195" Category="Contains" />
+    <Link Source="OthersGroup" Target="@197" Category="Contains" />
+    <Link Source="OthersGroup" Target="@199" Category="Contains" />
+    <Link Source="OthersGroup" Target="@201" Category="Contains" />
+    <Link Source="OthersGroup" Target="@203" Category="Contains" />
+    <Link Source="OthersGroup" Target="@205" Category="Contains" />
+    <Link Source="OthersGroup" Target="@207" Category="Contains" />
+    <Link Source="OthersGroup" Target="@209" Category="Contains" />
+    <Link Source="OthersGroup" Target="@21" Category="Contains" />
+    <Link Source="OthersGroup" Target="@211" Category="Contains" />
+    <Link Source="OthersGroup" Target="@213" Category="Contains" />
+    <Link Source="OthersGroup" Target="@215" Category="Contains" />
+    <Link Source="OthersGroup" Target="@217" Category="Contains" />
+    <Link Source="OthersGroup" Target="@23" Category="Contains" />
+    <Link Source="OthersGroup" Target="@25" Category="Contains" />
+    <Link Source="OthersGroup" Target="@27" Category="Contains" />
+    <Link Source="OthersGroup" Target="@29" Category="Contains" />
+    <Link Source="OthersGroup" Target="@35" Category="Contains" />
+    <Link Source="OthersGroup" Target="@41" Category="Contains" />
+    <Link Source="OthersGroup" Target="@45" Category="Contains" />
+    <Link Source="OthersGroup" Target="@5" Category="Contains" />
+    <Link Source="OthersGroup" Target="@7" Category="Contains" />
+    <Link Source="OthersGroup" Target="@73" Category="Contains" />
+    <Link Source="OthersGroup" Target="@75" Category="Contains" />
+    <Link Source="OthersGroup" Target="@79" Category="Contains" />
+    <Link Source="OthersGroup" Target="@81" Category="Contains" />
+    <Link Source="OthersGroup" Target="@83" Category="Contains" />
+    <Link Source="OthersGroup" Target="@89" Category="Contains" />
+    <Link Source="OthersGroup" Target="@9" Category="Contains" />
+    <Link Source="OthersGroup" Target="@91" Category="Contains" />
+    <Link Source="OthersGroup" Target="@93" Category="Contains" />
+    <Link Source="OthersGroup" Target="@95" Category="Contains" />
+    <Link Source="OthersGroup" Target="@97" Category="Contains" />
+    <Link Source="OthersGroup" Target="@99" Category="Contains" />
+    <Link Source="PoundIncludeGraphExternalsGroup" Target="G4" Category="Contains" />
+    <Link Source="PoundIncludeGraphExternalsGroup" Target="OthersGroup" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@103" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@107" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@109" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@119" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@121" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@133" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@137" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@141" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@143" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@153" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@155" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@157" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@31" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@39" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@47" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@49" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@55" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@67" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@69" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@77" Category="Contains" />
+    <Link Source="Windows SDK 间接包含" Target="@87" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_PoundIncludeFile" Label="C++ 项目文件" BasedOn="File" Background="#FFEFEFEF" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="C++ 项目文件" />
+    <Category Id="CodeSchema_PoundIncludeGroup" Label="#include 组" BasedOn="Group" Background="#FFEFEFEF" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="#include 组" />
+    <Category Id="CodeSchema_ProjectItem" Label="项目项" BasedOn="File" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Type" Icon="File" NavigationActionLabel="项目项" />
+    <Category Id="Contains" Label="包含" Description="链接的源是否包含目标对象" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="包含者" IsContainment="True" OutgoingActionLabel="包含" />
+    <Category Id="Externals" Label="外部" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="外部" />
+    <Category Id="File" Label="文件" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="File" NavigationActionLabel="文件" />
+    <Category Id="Group" Label="组" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" IsProviderRoot="False" NavigationActionLabel="组" />
+    <Category Id="PoundInclude" Label="#include" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="#include 调用方" OutgoingActionLabel="#include" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="背景" Description="背景色" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="FilePath" Label="文件路径" Description="文件路径" DataType="System.String" />
+    <Property Id="Group" Label="组" Description="将节点显示为组" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="NativeProvider_CodeItemIds" Label="NodeIds" Description="NodeIds" DataType="Microsoft.VisualStudio.Progression.SmallList`1[[System.Int64, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="程序集" ValueType="Uri" />
+    <Name Id="File" Label="文件" ValueType="Uri" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(VsSolutionUri)/WestWorld/WestWorld.vcxproj" />
+    <Alias n="2" Id="(@1)" />
+    <Alias n="3" Uri="Assembly=" />
+    <Alias n="4" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xmemory0" />
+    <Alias n="5" Id="(@3 @4)" />
+    <Alias n="6" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cstdlib" />
+    <Alias n="7" Id="(@3 @6)" />
+    <Alias n="8" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/iosfwd" />
+    <Alias n="9" Id="(@3 @8)" />
+    <Alias n="10" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xlocale" />
+    <Alias n="11" Id="(@3 @10)" />
+    <Alias n="12" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xiosbase" />
+    <Alias n="13" Id="(@3 @12)" />
+    <Alias n="14" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cstddef" />
+    <Alias n="15" Id="(@3 @14)" />
+    <Alias n="16" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xstddef" />
+    <Alias n="17" Id="(@3 @16)" />
+    <Alias n="18" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/streambuf" />
+    <Alias n="19" Id="(@3 @18)" />
+    <Alias n="20" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cstring" />
+    <Alias n="21" Id="(@3 @20)" />
+    <Alias n="22" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xstring" />
+    <Alias n="23" Id="(@3 @22)" />
+    <Alias n="24" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/string" />
+    <Alias n="25" Id="(@3 @24)" />
+    <Alias n="26" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xatomic0.h" />
+    <Alias n="27" Id="(@3 @26)" />
+    <Alias n="28" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/intrin0.h" />
+    <Alias n="29" Id="(@3 @28)" />
+    <Alias n="30" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wstdlib.h" />
+    <Alias n="31" Id="(@3 @30)" />
+    <Alias n="32" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/stdlib.h" />
+    <Alias n="33" Id="(@3 @32)" />
+    <Alias n="34" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xatomic.h" />
+    <Alias n="35" Id="(@3 @34)" />
+    <Alias n="36" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/malloc.h" />
+    <Alias n="37" Id="(@3 @36)" />
+    <Alias n="38" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_malloc.h" />
+    <Alias n="39" Id="(@3 @38)" />
+    <Alias n="40" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xcall_once.h" />
+    <Alias n="41" Id="(@3 @40)" />
+    <Alias n="42" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/locale.h" />
+    <Alias n="43" Id="(@3 @42)" />
+    <Alias n="44" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vcruntime.h" />
+    <Alias n="45" Id="(@3 @44)" />
+    <Alias n="46" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wtime.h" />
+    <Alias n="47" Id="(@3 @46)" />
+    <Alias n="48" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wctype.h" />
+    <Alias n="49" Id="(@3 @48)" />
+    <Alias n="50" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/ctype.h" />
+    <Alias n="51" Id="(@3 @50)" />
+    <Alias n="52" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/share.h" />
+    <Alias n="53" Id="(@3 @52)" />
+    <Alias n="54" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_share.h" />
+    <Alias n="55" Id="(@3 @54)" />
+    <Alias n="56" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_terminate.h" />
+    <Alias n="57" Id="(@3 @56)" />
+    <Alias n="58" Uri="File=$(VsSolutionUri)/WestWorld/MinerOwnedState.h" />
+    <Alias n="59" Id="(@1 @58)" />
+    <Alias n="60" Uri="File=$(VsSolutionUri)/WestWorld/State.h" />
+    <Alias n="61" Id="(@1 @60)" />
+    <Alias n="62" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/stddef.h" />
+    <Alias n="63" Id="(@3 @62)" />
+    <Alias n="64" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/crtdbg.h" />
+    <Alias n="65" Id="(@3 @64)" />
+    <Alias n="66" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_stdio_config.h" />
+    <Alias n="67" Id="(@3 @66)" />
+    <Alias n="68" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wstring.h" />
+    <Alias n="69" Id="(@3 @68)" />
+    <Alias n="70" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/string.h" />
+    <Alias n="71" Id="(@3 @70)" />
+    <Alias n="72" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vcruntime_string.h" />
+    <Alias n="73" Id="(@3 @72)" />
+    <Alias n="74" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vcruntime_new_debug.h" />
+    <Alias n="75" Id="(@3 @74)" />
+    <Alias n="76" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_search.h" />
+    <Alias n="77" Id="(@3 @76)" />
+    <Alias n="78" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/eh.h" />
+    <Alias n="79" Id="(@3 @78)" />
+    <Alias n="80" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xtgmath.h" />
+    <Alias n="81" Id="(@3 @80)" />
+    <Alias n="82" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/ymath.h" />
+    <Alias n="83" Id="(@3 @82)" />
+    <Alias n="84" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/math.h" />
+    <Alias n="85" Id="(@3 @84)" />
+    <Alias n="86" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_math.h" />
+    <Alias n="87" Id="(@3 @86)" />
+    <Alias n="88" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/use_ansi.h" />
+    <Alias n="89" Id="(@3 @88)" />
+    <Alias n="90" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xkeycheck.h" />
+    <Alias n="91" Id="(@3 @90)" />
+    <Alias n="92" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/concurrencysal.h" />
+    <Alias n="93" Id="(@3 @92)" />
+    <Alias n="94" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/sal.h" />
+    <Alias n="95" Id="(@3 @94)" />
+    <Alias n="96" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vcruntime_exception.h" />
+    <Alias n="97" Id="(@3 @96)" />
+    <Alias n="98" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xlocinfo.h" />
+    <Alias n="99" Id="(@3 @98)" />
+    <Alias n="100" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vcruntime_typeinfo.h" />
+    <Alias n="101" Id="(@3 @100)" />
+    <Alias n="102" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wstdio.h" />
+    <Alias n="103" Id="(@3 @102)" />
+    <Alias n="104" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/stdio.h" />
+    <Alias n="105" Id="(@3 @104)" />
+    <Alias n="106" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wconio.h" />
+    <Alias n="107" Id="(@3 @106)" />
+    <Alias n="108" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wio.h" />
+    <Alias n="109" Id="(@3 @108)" />
+    <Alias n="110" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/errno.h" />
+    <Alias n="111" Id="(@3 @110)" />
+    <Alias n="112" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/wchar.h" />
+    <Alias n="113" Id="(@3 @112)" />
+    <Alias n="114" Uri="File=$(VsSolutionUri)/WestWorld/Miner.h" />
+    <Alias n="115" Id="(@1 @114)" />
+    <Alias n="116" Uri="File=$(VsSolutionUri)/WestWorld/EntityNames.h" />
+    <Alias n="117" Id="(@1 @116)" />
+    <Alias n="118" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_math_defines.h" />
+    <Alias n="119" Id="(@3 @118)" />
+    <Alias n="120" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/sys/types.h" />
+    <Alias n="121" Id="(@3 @120)" />
+    <Alias n="122" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vadefs.h" />
+    <Alias n="123" Id="(@3 @122)" />
+    <Alias n="124" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/crtdefs.h" />
+    <Alias n="125" Id="(@3 @124)" />
+    <Alias n="126" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/yvals.h" />
+    <Alias n="127" Id="(@3 @126)" />
+    <Alias n="128" Uri="File=$(VsSolutionUri)/WestWorld/Locations.h" />
+    <Alias n="129" Id="(@1 @128)" />
+    <Alias n="130" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/CodeAnalysis/sourceannotations.h" />
+    <Alias n="131" Id="(@3 @130)" />
+    <Alias n="132" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wprocess.h" />
+    <Alias n="133" Id="(@3 @132)" />
+    <Alias n="134" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/limits.h" />
+    <Alias n="135" Id="(@3 @134)" />
+    <Alias n="136" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_memcpy_s.h" />
+    <Alias n="137" Id="(@3 @136)" />
+    <Alias n="138" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/float.h" />
+    <Alias n="139" Id="(@3 @138)" />
+    <Alias n="140" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/sys/stat.h" />
+    <Alias n="141" Id="(@3 @140)" />
+    <Alias n="142" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_wdirect.h" />
+    <Alias n="143" Id="(@3 @142)" />
+    <Alias n="144" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/stdint.h" />
+    <Alias n="145" Id="(@3 @144)" />
+    <Alias n="146" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt.h" />
+    <Alias n="147" Id="(@3 @146)" />
+    <Alias n="148" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xstring_insert.h" />
+    <Alias n="149" Id="(@3 @148)" />
+    <Alias n="150" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/vcruntime_new.h" />
+    <Alias n="151" Id="(@3 @150)" />
+    <Alias n="152" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/shared/winpackagefamily.h" />
+    <Alias n="153" Id="(@3 @152)" />
+    <Alias n="154" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/shared/winapifamily.h" />
+    <Alias n="155" Id="(@3 @154)" />
+    <Alias n="156" Uri="File=$(ProgramFilesUri)/Windows Kits/10/Include/10.0.15063.0/ucrt/corecrt_memory.h" />
+    <Alias n="157" Id="(@3 @156)" />
+    <Alias n="158" Uri="File=$(VsSolutionUri)/WestWorld/GameEntity.h" />
+    <Alias n="159" Id="(@1 @158)" />
+    <Alias n="160" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cmath" />
+    <Alias n="161" Id="(@3 @160)" />
+    <Alias n="162" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/istream" />
+    <Alias n="163" Id="(@3 @162)" />
+    <Alias n="164" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/iostream" />
+    <Alias n="165" Id="(@3 @164)" />
+    <Alias n="166" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/ostream" />
+    <Alias n="167" Id="(@3 @166)" />
+    <Alias n="168" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xlocnum" />
+    <Alias n="169" Id="(@3 @168)" />
+    <Alias n="170" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/exception" />
+    <Alias n="171" Id="(@3 @170)" />
+    <Alias n="172" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xtr1common" />
+    <Alias n="173" Id="(@3 @172)" />
+    <Alias n="174" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xlocinfo" />
+    <Alias n="175" Id="(@3 @174)" />
+    <Alias n="176" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/typeinfo" />
+    <Alias n="177" Id="(@3 @176)" />
+    <Alias n="178" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cstdio" />
+    <Alias n="179" Id="(@3 @178)" />
+    <Alias n="180" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cerrno" />
+    <Alias n="181" Id="(@3 @180)" />
+    <Alias n="182" Uri="File=$(VsSolutionUri)/WestWorld/MinerOwnedState.cpp" />
+    <Alias n="183" Id="(@1 @182)" />
+    <Alias n="184" Uri="File=$(VsSolutionUri)/WestWorld/main.cpp" />
+    <Alias n="185" Id="(@1 @184)" />
+    <Alias n="186" Uri="File=$(VsSolutionUri)/WestWorld/Miner.cpp" />
+    <Alias n="187" Id="(@1 @186)" />
+    <Alias n="188" Uri="File=$(VsSolutionUri)/WestWorld/GameEntity.cpp" />
+    <Alias n="189" Id="(@1 @188)" />
+    <Alias n="190" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cwchar" />
+    <Alias n="191" Id="(@3 @190)" />
+    <Alias n="192" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/system_error" />
+    <Alias n="193" Id="(@3 @192)" />
+    <Alias n="194" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/ios" />
+    <Alias n="195" Id="(@3 @194)" />
+    <Alias n="196" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/type_traits" />
+    <Alias n="197" Id="(@3 @196)" />
+    <Alias n="198" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/climits" />
+    <Alias n="199" Id="(@3 @198)" />
+    <Alias n="200" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/limits" />
+    <Alias n="201" Id="(@3 @200)" />
+    <Alias n="202" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cfloat" />
+    <Alias n="203" Id="(@3 @202)" />
+    <Alias n="204" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xfacet" />
+    <Alias n="205" Id="(@3 @204)" />
+    <Alias n="206" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/cstdint" />
+    <Alias n="207" Id="(@3 @206)" />
+    <Alias n="208" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/stdexcept" />
+    <Alias n="209" Id="(@3 @208)" />
+    <Alias n="210" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/initializer_list" />
+    <Alias n="211" Id="(@3 @210)" />
+    <Alias n="212" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/new" />
+    <Alias n="213" Id="(@3 @212)" />
+    <Alias n="214" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/xutility" />
+    <Alias n="215" Id="(@3 @214)" />
+    <Alias n="216" Uri="File=$(VsInstallDirUri)/VC/Tools/MSVC/14.12.25827/include/utility" />
+    <Alias n="217" Id="(@3 @216)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="C++ 项目文件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_PoundIncludeFile')" />
+      <Setter Property="Background" Value="#FFEFEFEF" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="外部" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FFA08080" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="源文件" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_ProjectItem')" />
+      <Setter Property="Background" Value="#FFC0C0C0" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="#include 组" ValueLabel="具有类别">
+      <Condition Expression="HasCategory('CodeSchema_PoundIncludeGroup')" />
+      <Setter Property="Background" Value="#FFEFEFEF" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="ProgramFiles" Value="C:\Program Files (x86)" />
+    <Path Id="ProgramFilesUri" Value="file:///C:/Program Files (x86)" />
+    <Path Id="VsInstallDir" Value="C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise" />
+    <Path Id="VsInstallDirUri" Value="file:///C:/Program Files (x86)/Microsoft Visual Studio/2017/Enterprise" />
+    <Path Id="VsSolution" Value="C:\Users\c5947\Desktop\vs2017\git_WestWorld\WestWorld" />
+    <Path Id="VsSolutionUri" Value="file:///C:/Users/c5947/Desktop/vs2017/git_WestWorld/WestWorld" />
+  </Paths>
+</DirectedGraph>

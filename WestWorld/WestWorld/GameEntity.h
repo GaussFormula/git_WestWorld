@@ -1,4 +1,13 @@
 #pragma once
+//Name: GameEntity.h
+//Desc: Base class for a game object
+#include <string>
+#include "Telegram.h"
+//------------------------------------------------------------
+//	Name: GameEntity.h
+//
+//	Desc: Base class for a game object
+//------------------------------------------------------------
 class BaseGameEntity
 {
 private:
@@ -12,6 +21,9 @@ public:
 	}
 	virtual ~BaseGameEntity() {}
 	virtual void Update() = 0;//¸üÐÂº¯Êý
+	//all entities can communicate using messages. They are sent
+	//using the MessageDispatcher singleton class
+	virtual bool HandleMessage(const Telegram& msg) = 0;
 	int getID()const
 	{
 		return this->ID;
