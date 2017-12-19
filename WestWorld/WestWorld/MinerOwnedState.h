@@ -1,7 +1,9 @@
 #pragma once
 #include "State.h"
 class Miner;
-class EnterMineAndDigForNugget:public State
+class Telegram;
+
+class EnterMineAndDigForNugget:public State<Miner>
 {
 private:
 	EnterMineAndDigForNugget() {}
@@ -12,9 +14,10 @@ public:
 	virtual void Enter(Miner* miner);
 	virtual void Execute(Miner*miner);
 	virtual void Exit(Miner*miner);
+	virtual bool OnMessage(Miner*agent, const Telegram& msg);
 };
 
-class VisitBankAndDepositGold :public State
+class VisitBankAndDepositGold :public State<Miner>
 {
 private:
 	VisitBankAndDepositGold(){}
@@ -22,12 +25,17 @@ private:
 	VisitBankAndDepositGold& operator=(const VisitBankAndDepositGold&);
 public:
 	static VisitBankAndDepositGold* Instance();
+	
 	virtual void Enter(Miner* miner);
+	
 	virtual void Execute(Miner*miner);
+	
 	virtual void Exit(Miner*miner);
+	
+	virtual bool OnMessage(Miner*agent, const Telegram&msg);
 };
 
-class GoHomeAndSleepTilRested :public State
+class GoHomeAndSleepTilRested :public State<Miner>
 {
 private:
 	GoHomeAndSleepTilRested(){}
@@ -41,9 +49,11 @@ public:
 	virtual void Execute(Miner* miner);
 
 	virtual void Exit(Miner* miner);
+
+	virtual bool OnMessage(Miner*agent, const Telegram& msg);
 };
 
-class QuenchThirst : public State
+class QuenchThirst : public State<Miner>
 {
 private:
 
@@ -63,4 +73,31 @@ public:
 	virtual void Execute(Miner* miner);
 
 	virtual void Exit(Miner* miner);
+
+	virtual bool OnMessage(Miner*agent, const Telegram&msg);
+};
+
+class EatStew :public State<Miner>
+{
+private:
+	EatStew(){}
+
+	//copy ctor and assignment should be private
+	EatStew(const EatStew&);
+	EatStew& operator=(const EatStew&);
+
+public:
+
+	//this is a singleton
+	static EatStew* Instance();
+
+	virtual void Enter(Miner*miner);
+
+	virtual void Execute(Miner*Miner);
+
+	virtual void Exit(Miner*miner);
+
+	virtual bool OnMessage(Miner*agent, const Telegram&msg);
+
+
 };

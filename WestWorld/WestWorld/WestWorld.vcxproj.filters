@@ -59,5 +59,14 @@
     <ClInclude Include="StateMachine.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner%27s_Wife.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Miner%27sWifeOwnedState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

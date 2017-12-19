@@ -120,11 +120,14 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EntityManager.h" />
     <ClInclude Include="EntityNames.h" />
     <ClInclude Include="GameEntity.h" />
     <ClInclude Include="Locations.h" />
     <ClInclude Include="MessageDispatcher.h" />
     <ClInclude Include="MessageTypes.h" />
+    <ClInclude Include="Miner%27sWifeOwnedState.h" />
+    <ClInclude Include="Miner%27s_Wife.h" />
     <ClInclude Include="Miner.h" />
     <ClInclude Include="MinerOwnedState.h" />
     <ClInclude Include="State.h" />

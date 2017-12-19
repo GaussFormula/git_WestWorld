@@ -7,7 +7,6 @@ public:
 	Telegram();
 	~Telegram();
 
-private:
 	//the entity that sent this telegram
 	int sender;
 	//the entity that receive this telegram

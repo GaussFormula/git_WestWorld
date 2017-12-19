@@ -1,29 +1,23 @@
 #include "Miner.h"
 #include "MinerOwnedState.h"
+#include "StateMachine.h"
 Miner::Miner(int ID):BaseGameEntity(ID),
 					 m_Location(shack),
 					 i_GoldCarried(0),
 					 i_MoneyInBank(0),
 					 i_Thirst(0),
-					 i_Fatigue(0),
-					 p_CurrentState(GoHomeAndSleepTilRested::Instance())
-{}
+					 i_Fatigue(0)	 
+{
+	//set up state machine
+	m_pStateMachine = new StateMachine<Miner>(this);
+
+	m_pStateMachine->SetCurrentState(GoHomeAndSleepTilRested::Instance());
+	//note: a global state has not been implemented for the miner
+}
 void Miner::Update()
 {
 	i_Thirst += 1;
-	if (p_CurrentState)
-	{
-		p_CurrentState->Execute(this);
-	}
-}
-void Miner::ChangeState(State*pNewState)
-{
-	if (p_CurrentState&&pNewState)
-	{
-		p_CurrentState->Exit(this);
-		p_CurrentState = pNewState;
-		p_CurrentState->Enter(this);
-	}
+	m_pStateMachine->Update();
 }
 
 void Miner::AddToGoldCarried(const int val)

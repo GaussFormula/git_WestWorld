@@ -1,9 +1,14 @@
 #pragma once
+#include <string>
+#include <iostream>
+
 #include "GameEntity.h"
 #include "State.h"
 #include "Locations.h"
+#include "StateMachine.h"
 
-class State;
+template <class entity_type> class State;
+class Telegram;
 const int MaxNuggets = 3;
 const int ComfortLevel = 5;
 const int TirednessThreshold = 5;
@@ -11,7 +16,9 @@ const int TirstLevel = 5;
 class Miner:public BaseGameEntity
 {
 private:
-	State* p_CurrentState;
+	//an instace of the state machine class
+	StateMachine<Miner>* m_pStateMachine;
+
 	location_type m_Location;
 	int i_GoldCarried;
 	int i_MoneyInBank;
@@ -19,9 +26,9 @@ private:
 	int i_Fatigue;//∆£¿Õ÷µ
 public:
 	Miner(int ID);
-	~Miner() {};
+	~Miner() { delete m_pStateMachine; };
 	void Update();
-	void ChangeState(State* p_NewState);
+	//void ChangeState(State<Miner>* p_NewState);
 	location_type Location()const { return m_Location; }
 	void ChangeLocation(const location_type loc) { m_Location = loc; }
 	int GoldCarried()const { return i_GoldCarried; }
@@ -36,4 +43,7 @@ public:
 	void AddToWealth(const int val);
 	bool Thirsty()const;
 	void BuyAndDrinkWhiskey() { i_Thirst = 0; i_MoneyInBank -= 2; }
+	virtual bool HandleMessage(const Telegram&msg);
+	StateMachine<Miner>* GetFSM()const { return m_pStateMachine; }
+
 };
