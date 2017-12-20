@@ -138,7 +138,9 @@ bool GoHomeAndSleepTilRested::OnMessage(Miner * agent, const Telegram & msg)
 		cout << "\n" << GetNameOfEntity(agent->getID())
 			<< ": Okay Hun, ahm a comin'!";
 		agent->GetFSM()->ChangeState(EatStew::Instance());
+		return true;
 	}
+	return false;
 }
 
 QuenchThirst* QuenchThirst::Instance()

@@ -49,3 +49,8 @@ bool Miner::Thirsty()const
 	return false;
 }
 
+bool Miner::HandleMessage(const Telegram&msg)
+{
+	return m_pStateMachine->HandleMessage(msg);
+}
+

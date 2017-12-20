@@ -55,7 +55,7 @@ public:
 		//to the global state
 		if (m_pGlobalState&&m_pGlobalState->OnMessage(m_pOwner, msg))
 		{
-			return true
+			return true;
 		}
 		return false;
 	}

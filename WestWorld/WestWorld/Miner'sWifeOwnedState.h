@@ -24,11 +24,11 @@ public:
 	//this is a singleton
 	static WifeGlobalState* Instance();
 
-	virtual void Enter(MinersWife*wife);
+	virtual void Enter(MinersWife*wife){}
 
 	virtual void Execute(MinersWife*wife);
 
-	virtual void Exit(MinersWife* wife);
+	virtual void Exit(MinersWife* wife){}
 
 	virtual bool OnMessage(MinersWife* wife, const Telegram&msg);
 

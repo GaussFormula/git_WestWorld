@@ -114,10 +114,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="EntityManager.cpp" />
     <ClCompile Include="GameEntity.cpp" />
+    <ClCompile Include="MessageDispatcher.cpp" />
     <ClCompile Include="Miner.cpp" />
     <ClCompile Include="MinerOwnedState.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinersWife.cpp" />
+    <ClCompile Include="MinersWifeOwnedState.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EntityManager.h" />
