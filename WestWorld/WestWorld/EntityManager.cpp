@@ -36,3 +36,11 @@ void EntityManager::RegisterEntity(BaseGameEntity*NewEntity)
 {
 	EntityMap.insert(std::make_pair(NewEntity->getID(), NewEntity));
 }
+
+EntityManager::EntityManager()
+{
+}
+
+EntityManager::~EntityManager()
+{
+}

@@ -108,3 +108,11 @@ void MessageDispatcher::DispatchDelayedMessage()
 		PriorityQ.erase(PriorityQ.begin());
 	}
 }
+
+MessageDispatcher::MessageDispatcher()
+{
+}
+
+MessageDispatcher::~MessageDispatcher()
+{
+}

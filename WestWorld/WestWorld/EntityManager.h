@@ -41,11 +41,3 @@ private:
 	EntityManager(const EntityManager&);
 	EntityManager& operator=(const EntityManager&);
 };
-
-EntityManager::EntityManager()
-{
-}
-
-EntityManager::~EntityManager()
-{
-}

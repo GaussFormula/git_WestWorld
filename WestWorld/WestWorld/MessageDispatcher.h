@@ -40,11 +40,3 @@ private:
 	MessageDispatcher(const MessageDispatcher&) {}
 	MessageDispatcher& operator=(const MessageDispatcher&);
 };
-
-MessageDispatcher::MessageDispatcher()
-{
-}
-
-MessageDispatcher::~MessageDispatcher()
-{
-}

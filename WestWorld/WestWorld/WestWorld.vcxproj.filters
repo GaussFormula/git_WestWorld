@@ -39,6 +39,9 @@
     <ClCompile Include="MinersWifeOwnedState.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Telegram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameEntity.h">

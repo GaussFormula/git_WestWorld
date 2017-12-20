@@ -122,6 +122,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MinersWife.cpp" />
     <ClCompile Include="MinersWifeOwnedState.cpp" />
+    <ClCompile Include="Telegram.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EntityManager.h" />
